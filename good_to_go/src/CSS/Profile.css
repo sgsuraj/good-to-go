@@ -1,0 +1,829 @@
+.profile_full{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: whitesmoke;
+}
+
+.profile_main{
+    width: 400px;
+    height: 100%;
+    overflow: scroll;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.navbar_prof{
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    z-index: 16;
+    background-color: white;
+}
+
+.info_inte{
+    width: 100%;
+    height: 150px;
+    float: right;
+    display: block;
+    padding-top: 50px;
+    background-color: white;
+}
+
+.to_show{
+    width: 30%;
+    height: fit-content;
+    float: left;
+    margin-top: 58px;
+    position: fixed;
+    float: left;
+    display: block;
+}
+
+.to_show_nav{
+    width: 80%;
+    height: fit-content;
+    float: left;
+    margin: 10%;
+    display: block;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+}
+
+.nav_btn{
+    width: 100%;
+    height: fit-content;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: none;
+    position: relative;
+    padding: 20px 10px;
+    float: left;
+    display: block;
+    overflow: scroll;
+    border-radius: 50px 0px 50px 0px;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+}
+
+.the_total_content{
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    position: fixed;
+    margin-top: 20px;
+    padding-top: 20px;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+}
+
+.my_posts_box{
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+}
+
+.nav_btn:hover{
+    border-radius: 50px 0px 50px 0px;
+    border-bottom: 5px solid gray;
+    border-top: 5px solid gray;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.body_prof{
+    width: 100%;
+    height: 100%;
+}
+
+.user_data_prof{
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.user_image_prof{
+    width: 20%;
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    float: left;
+}
+
+.img_style_prof{
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.image_edit_btn{
+    width: 100%;
+    height: 20px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    z-index: 2;
+    position: relative;
+}
+
+.edit_btn{
+    width: fit-content;
+    height: 30px;
+    aspect-ratio: 1;
+    margin: auto;
+    background-color: rgb(1, 1, 1, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    z-index: 3;
+    color: white;
+}
+
+.edit_btn:hover{
+    background-color: rgb(1, 1, 1, 0.6);
+}
+
+.edit_name_btn_cls{
+    width: 10%;
+    height: fit-content;
+    aspect-ratio: 1;
+    float: right;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+}
+
+
+.user_info_prof{
+    width: 80%;
+    height: 80%;
+    float: left;
+    justify-content: center;
+}
+
+.name_and_edit{
+    width: 100%;
+    height: 50%;
+    float: left;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.user_info_prof_email{
+    width: 100%;
+    height: 50%;
+    padding: 5px 10px;
+    float: left;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.user_info_prof_name{
+    width: 80%;
+    height: fit-content;
+    float: left;
+}
+
+.pre_posts_div{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: white;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.my_posts_or_features{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    border-bottom: 1px solid gainsboro;
+}
+
+.features_div{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    background-color: white;
+    padding-bottom: 10px;
+    display: none;
+}
+
+.one_feature_div{
+    width: 100%;   
+    height: fit-content;
+    float: left;
+    display: block;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-top: none;
+}
+
+.my_inte_show_span{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    float: left;
+}
+
+.my_inte_show_span i{
+    -webkit-text-stroke-width: 1px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+#remove_tag_icon{
+    -webkit-text-stroke-width: 1px;
+    margin-left: 5px;
+}
+
+.one_post_or_feature{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.interests_show_div{
+    width: 100%;
+    height: fit-content;
+    float: left;
+    display: block;
+    align-items: center;
+}
+
+.add_interests_div{
+    width: 100%;
+    height: fit-content;
+    float: left;
+    margin-top: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_more_interests_btn{
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    padding: 5px 10px;
+    margin-left: 20px;
+    background-color: greenyellow;
+    color: black;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input_tag_div{
+    width: 80%;
+    height: fit-content;
+    padding: 5px 10px;
+    float: left;
+    border: none;
+    background-color: whitesmoke;
+    box-shadow: 0 0px 5px rgb(1, 1, 1, 0.3);
+    border-radius: 60px;
+}
+
+.logout_btn{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    float: right;
+}
+
+.sep_inte{
+    width: 3%;
+    height: 1px;
+    float: left;
+    display: flex;
+}
+
+.add_interest_btn{
+    width: 17%;
+    height: fit-content;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 30px;
+    padding: 6px 0px 6px 0px;
+    color: white;
+}
+
+.loading_my_posts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.temp_nav{
+    width: 100%;
+    height: 40px;
+    float: left;
+    display: block;
+}
+
+.temp_nav_element{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: block;
+    background-color: aliceblue;
+}
+
+.temp_nav_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.my_posts_pics_div{
+    width: 100%;
+    height: fit-content;
+    float: left;
+    display: block;
+}
+
+.one_post_pic_div{
+    width: 32.8%;
+    height: auto;
+    aspect-ratio: 1;
+    float: left;
+    position: relative;
+    margin-top: 3px;
+    display: block;
+    overflow: scroll;
+}
+
+.one_post_pic_style{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 1px solid gray;
+}
+
+.details_l_and_c{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.details_likes_and_comments_div{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.details_div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(1, 1, 1, 0.3);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.details_likes_and_comments_div i{
+    font-size: 25px;
+    color: white;
+}
+
+.details_likes_and_comments_div:hover{
+    -webkit-text-fill-color: white;
+}
+
+/* .fa-thumbs-up{
+}
+
+.fa-thumbs-up:hover{
+    -webkit-text-fill-color: white;
+}
+
+.fa-comment{
+    font-size: 17px;
+    color: white;
+}
+
+.fa-comment:hover{
+    -webkit-text-fill-color: white;
+} */
+
+.fa-edit{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(1, 1, 1, 0.3);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.fa-edit:hover{
+    background-color: rgb(1, 1, 1, 0.6);
+}
+
+.edit_image_div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(1, 1, 1, 0.3);
+    justify-content: center;
+    display: none;
+    align-items: center;
+    z-index: 19;
+}
+
+.edit_image_box{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.uploading_spinner_full{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: transparent;
+    justify-content: center;
+    display: none;
+    align-items: center;
+    z-index: 20;
+}
+
+.saving_name_full{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(1, 1, 1, 0.3);
+    justify-content: center;
+    display: none;
+    align-items: center;
+    z-index: 19;
+}
+
+.uploading_spinner_div{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.close_tab_div{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.title_div{
+    width: 90%;
+    height: 40px;
+    float: left;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.edit_image_fun{
+    width: 100%;
+    height: fit-content;
+}
+
+.pre_image_div{
+    width: 50%;
+    height: 160px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.edit_image_buttons_div{
+    width: 50%;
+    height: 160px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.edit_image_buttons_box{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.edit_image_one_button_div{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    float: left;
+}
+
+.change_image_btn{
+    width: 80%;
+    height: fit-content;
+    border: none;
+    border-radius: 10px;
+}
+
+.save_changes_btn{
+    width: fit-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: blue;
+    color: white;
+}
+
+.remove_image_btn{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 40px;
+    background-color: orange;
+    color: white;
+}
+
+.save_changes_div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-times{
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+
+.inte_body{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding-top: 20px;
+}
+
+.cont_for_edit{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    z-index: 15;
+    align-items: center;
+    background-color: rgb(1, 1, 1, 0.3);
+}
+
+.edit_box{
+    width: 400px;
+    height: fit-content;
+    background-color: white;
+}
+
+.inte_box{
+    width: 85%;
+    height: fit-content;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    padding: 50px 5% 50px 5%;
+    border-radius: 15px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.show_inte_box{
+    max-height: 200px;
+    width: 80%;
+    height: fit-content;
+    overflow-y: scroll;
+    margin: auto;
+    border: 2px solid greenyellow;
+    padding: 10px 20px 50px 20px;
+    border-radius: 15px; 
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.input_inte_box_sup{
+    width: 100%;
+    height: fit-content;
+    float: left;
+    display: block;
+}
+
+.input_inte_box{
+    width: 80%;
+    height: fit-content;
+    align-items: center;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.input_inte_content{
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input_style{
+    max-width: 50%;
+    border: none;
+    border-radius: 80px;
+    padding: 10px 20px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.input_style:hover{
+    border-radius: 80px;
+    padding: 10px 20px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 5px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.submit_btn{
+    border: none;
+    max-width: 50%;
+    border-radius: 80px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    margin-left: 15px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.submit_btn:hover{
+    background-color: blue;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 5px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.apply_btn_div{
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.apply_btn{
+    width: fit-content;
+    height: fit-content;
+    max-width: 50%;
+    padding: 15px 40px 15px 40px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 80px;
+    margin-left: 15px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.apply_btn:hover{
+    background-color: blue;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 5px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.tag_box_in_profile{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 80px;
+    float: left;
+    padding: 5px 15px 5px 15px;
+    margin: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 2px 1px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.done_message_box{
+    width: 100%;
+    height: fit-content;
+    float: left;
+    margin-top: 10px;
+    align-items: center;
+    display: none;
+}
+
+.done_message{
+    width: 60%;
+    height: fit-content;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    background-color:aquamarine;
+    border-radius: 80px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.done_message i{
+    float: right;
+    margin-right: 3%;
+}
+
+.fa-check{
+    background-color: greenyellow;
+    margin-left: 5px;
+    padding: 1px 1px 1px 1px;
+    color: black;
+    border: none;
+    border-radius: 80px;
+}
+
+.fa-exclamation{
+    width: fit-content;
+    background-color: orangered;
+    margin-left: 5px;
+    padding: 2px 8px 2px 8px;
+    color: white;
+    border: none;
+    border-radius: 100%;
+}

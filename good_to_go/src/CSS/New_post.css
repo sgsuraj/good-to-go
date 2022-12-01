@@ -1,0 +1,332 @@
+.new_post_full{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: scroll;
+    justify-content: left;
+    background-color: whitesmoke;
+}
+
+
+.new_post_main{
+    width: 400px;
+    height: 100%;
+    margin: auto;
+}
+
+
+.header{
+    width: 100%;
+    height: fit-content;
+    float: left;
+    position: fixed;
+}
+
+.header_in_all{
+    width: 400px;
+    height: fit-content;
+    display: block;
+    margin: auto;
+    overflow-x: scroll;
+    z-index: 11;
+    position: fixed;
+}
+
+.form_body_x{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 50px;
+    position: fixed;
+    overflow: scroll;
+    background-color: white;
+}
+
+.comment_input_div_in_new_post{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    float: left;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.comment_input_textarea{
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-top: 1px solid gainsboro;
+    padding: 10px 10px 10px 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    max-lines: 1;
+}
+
+.comment_input_textarea:active{
+    border: none;
+}
+
+.form{
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+    margin: auto;
+    overflow: scroll;
+    /* background-color: blue; */
+}
+
+.form_card{
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+.alert_message_box{
+    width: 100%;
+    height: 50px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.alert_message{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    background-color:aquamarine;
+    border-radius: 20px;
+}
+
+.alert_message i{
+    float: right;
+    margin-right: 3%;
+}
+
+.fa-times:hover{
+    cursor: pointer;
+}
+
+.image_input_box{
+    width: 100%;
+    max-height: 300px;
+    min-height: 150px;
+    height: auto;
+    float: left;
+    display: flex;
+    align-items: center;
+    display: none;
+    background-color: gainsboro;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+    width: fit-content;
+}
+
+.background_img{
+    max-width: 100%;
+    width: auto;
+    max-height: 300px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.background_img_i{
+    max-width: 100%;
+    width: auto;
+    max-height: 300px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.data_input_box{
+    width: 100%;
+    /* max-height: 100%; */
+    height: 100%;
+    float: left;
+    justify-content: center;
+}
+
+.image_input{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+::-webkit-file-upload-button{
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 80px;
+    background-color: blueviolet;
+}
+
+::-webkit-file-upload-button:hover{
+    background-color: blue;
+}
+
+.tags_input{
+    width: 100%;
+    height: 225px;
+    float: left;
+    margin-top: 10px;
+}
+
+.all_tags{
+    width: 100%;
+    height: fit-content;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    color: white;
+    background-color: green;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 0px;
+    background-color: blue;
+}
+
+.tags_input h3{
+    width: 100%;
+    height: 30px;
+    float: left;
+    margin-top: -5px;
+}
+
+.all_tags p{
+    width: 100%;
+    height: fit-content;
+    float: left;
+}
+
+.tags_input_field{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+.tag_input{
+    width: 40%;
+    height: fit-content;
+    float: left;
+    margin: 20px 5%;
+    border: none;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 80px;
+    padding: 10px 20px;
+}
+
+.tag_box{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    display: block;
+    float: left;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 2px 1px rgba(23, 21, 123, 0.24);
+    transition: all 3s cubic-bezier(.25,.8,.25,1);
+}
+
+.add_tag{
+    width: 30%;
+    height: fit-content;
+    border: none;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 20px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 80px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: blueviolet;
+}
+
+.add_tag:hover{
+    box-shadow: 0 0px 20px rgba(0,0,0,0.12), 0 5px 5px rgba(23, 21, 123, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    background-color: blue;
+}
+
+.post_area{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    float: left;
+    bottom: 0px;
+    background-color: white;
+}
+
+.post_button{
+    width: fit-content;
+    height: 45px;
+    bottom: 0px;
+    border-radius: 15px;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+    border: none;
+}
+
+.post_button:hover{
+    cursor: pointer;
+}
+
+.post_uploading{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-spinner{
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    100% {transform: rotate(360deg);}
+}

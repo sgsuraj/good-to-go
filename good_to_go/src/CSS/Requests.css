@@ -1,0 +1,56 @@
+.req_full{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.req_header{
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+}
+
+.req_content_full{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.req_content_main{
+    width: 400px;
+    height: 100%;
+    padding-bottom: 50px;
+    margin: auto;
+    background-color: white;
+    overflow-y: scroll;
+    border: 1px solid gainsboro;
+    border-top: none;
+}
+
+.one_noti_div{
+    width: 100%;
+    height: fit-content;
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.one_noti_div:hover{
+    background-color: aqua;
+}
+
+.image_in_noti{
+    max-width: 100px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+}
